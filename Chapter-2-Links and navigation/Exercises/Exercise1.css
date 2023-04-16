@@ -34,10 +34,10 @@ th, td {
 }
 
 div.sectionfive {
-    width: 95%;
+    width: 97%;
     padding: 10px;
     border: 5px dashed black;
-    background-color: antiquewhite;
+    background-color: rgb(251, 239, 223);
 }
 
 div.sectionsix {

@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(247, 235, 218);
+    font-size: 20px;
+    padding: 6px;
+}
+
+.Heading{
+    text-align: center;
+}
+
+
+.A {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.horizontal_line {
+    background-color: rgb(201, 132, 3);
+    width: 80%;
+    height: 2px;
+    line-height: 70%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+table{
+    border: 3px solid black;
+    width: 40%;
+    margin: left;
+    text-align: center;
+    padding: 4px;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 6px;
+}

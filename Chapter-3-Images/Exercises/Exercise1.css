@@ -1,0 +1,36 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.A1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid rgb(195, 195, 43);
+    border-radius: 10px;
+    filter: drop-shadow(4px 2px 16px rgb(201, 201, 113)) saturate(120%);
+}
+
+.B2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid rgb(172, 10, 75);
+    border-radius: 10px;
+    filter: drop-shadow(4px 2px 16px rgb(237, 99, 166)) saturate(120%) grayscale(60%);
+}
+
+.C3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid rgb(55, 172, 55);
+    border-radius: 10px;
+    filter: drop-shadow(4px 2px 16px rgb(113, 199, 113)) contrast(110%);
+}
+
+.Copyright {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Exercise1.css"> <!-- Linking the CSS File -->
+    <script src="Exercise1.js"></script> <!-- Including the JS File -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+</head>
+<body>
+    <div class="box">
+    <h1>Petrol Calculator</h1>
+    <form id="Form">           
+        <label for="Petrol_Price">Price per litre of petrol:</label>
+        <input type="number" id="Petrol_Price" step="0.02" value="1.72" required>
+        <label for="Petrol_Litres">Litres purchased:</label>
+        <input type="number" id="Petrol_Litres" step="0.02" value="0" required>
+        <button type="button" id="calculate">Calculate</button>
+    </form>
+    <p id="Cost"></p> <!-- Paragraph tag for displaying the total price -->
+    </div>
+    <script src="Exercise1.js"></script>
+</body>
+</html>

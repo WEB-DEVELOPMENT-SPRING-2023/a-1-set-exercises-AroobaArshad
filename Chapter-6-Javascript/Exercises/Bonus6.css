@@ -1,0 +1,53 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    background-image: url(Untitled\ design\ \(2\).png);
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
+    padding: 18px;
+    width: 80%;
+    margin: 18px auto;
+    background-color: rgb(244, 182, 203);
+    border: 4px solid rgb(197, 109, 139);
+    border-radius: 15px;
+    box-shadow: 7px 7px rgb(197, 109, 139);
+}
+
+#Choose_Color {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.Option {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+#Message {
+    font-size: 24px;
+}
+
+#Player_Score {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#Button {
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 25px;
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 40%;
+    box-shadow: 2px 2px black;
+}

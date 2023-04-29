@@ -1,0 +1,143 @@
+body {
+    background-image: url(Untitled\ design\ \(3\).png);
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 85vh;
+}
+
+#Sound_Board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.Audio_Sample {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    padding: 6px 25px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px black,
+                10px 10px 15px rgb(115, 114, 114);
+}
+
+.Audio_Sample:hover {
+    background-color: rgb(176, 163, 140);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.text {
+    padding: 0px 20px 30px 4px;
+    width: 450px;
+    height: 130px;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px black,
+                10px 10px 10px gray;
+}
+
+
+.btn {
+    width: 100px;
+    background-color: rgb(174, 153, 126);
+    padding: 10px;
+    margin-left: 190px;
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(94, 82, 66);
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #fff;
+    box-shadow: 3px 3px gray;
+    transition: 0.8s;
+}
+
+.speech_box {
+    margin-right: 100px;
+    margin-top: 0;
+    position: absolute;
+    top: 215px;
+    right: 675px;
+}
+
+#left-arrow {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 45%;
+    width: 60px;
+    background-color: rgb(174, 153, 126);
+    box-shadow: 3px 3px rgb(94, 82, 66);
+    border: 2px solid black;
+}
+
+#left-arrow:hover {
+    background-color: white;
+    transition: 0.4s;
+}
+
+#right-arrow {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 45%;
+    width: 60px;
+    background-color: rgb(174, 153, 126);
+    box-shadow: 3px 3px rgb(94, 82, 66);
+    border: 2px solid black;
+}
+
+#right-arrow:hover {
+    background-color: white;
+    transition: 0.4s;
+}
+
+.arrow.disabled {
+    color: #bbb;
+    cursor: not-allowed;
+}
+  
+.arrow:hover:not(.disabled) {
+    color: #00ff3c;
+}
+

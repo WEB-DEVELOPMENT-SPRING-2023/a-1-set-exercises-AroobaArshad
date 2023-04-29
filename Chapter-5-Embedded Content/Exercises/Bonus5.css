@@ -1,0 +1,50 @@
+body {
+    background-image: url(Untitled\ design\ \(3\).png);
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+#Sound_Board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Audio_Sample {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    padding: 10px 100px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px black,
+                10px 10px 15px rgb(115, 114, 114);
+}
+
+.Audio_Sample:hover {
+    background-color: rgb(176, 163, 140);
+    color: #fff;
+}

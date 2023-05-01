@@ -108,6 +108,9 @@ main {
     background-color: rgb(174, 153, 126);
     box-shadow: 3px 3px rgb(94, 82, 66);
     border: 2px solid black;
+    position: absolute;
+    top: 645px;
+    right: 130px;
 }
 
 #left-arrow:hover {
@@ -125,6 +128,9 @@ main {
     background-color: rgb(174, 153, 126);
     box-shadow: 3px 3px rgb(94, 82, 66);
     border: 2px solid black;
+    position: absolute;
+    top: 645px;
+    right: 60px;
 }
 
 #right-arrow:hover {

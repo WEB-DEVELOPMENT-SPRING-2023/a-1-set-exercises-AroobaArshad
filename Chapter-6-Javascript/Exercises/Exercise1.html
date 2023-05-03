@@ -11,11 +11,14 @@
 <body>
     <div class="box">
     <h1>Petrol Calculator</h1>
+    <!--Using form tag for creating the basic structure of the petrol calculator that takes input from the user-->
     <form id="Form">           
         <label for="Petrol_Price">Price per litre of petrol:</label>
         <input type="number" id="Petrol_Price" step="0.02" value="1.72" required>
         <label for="Petrol_Litres">Litres purchased:</label>
         <input type="number" id="Petrol_Litres" step="0.02" value="0" required>
+        
+        <!--Adding a button that calculates the price upo clicking-->
         <button type="button" id="calculate">Calculate</button>
     </form>
     <p id="Cost"></p> <!-- Paragraph tag for displaying the total price -->

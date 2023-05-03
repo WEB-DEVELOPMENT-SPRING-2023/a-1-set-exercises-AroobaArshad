@@ -23,6 +23,7 @@ function rgbValueGenerator() {
 // This function will generate options for the player
 function OptionsGenerator() {
     const Options = [];
+    // The number of options displayed can be changed
     while (Options.length < 4) {
         const Color = rgbValueGenerator();
         if (!Options.includes(Color) && Color !== RGB_Value) {

@@ -5,6 +5,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.we {
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin: 14px;
+    border-radius: 7px;
+}
+
 
 div.html {
     margin: auto;

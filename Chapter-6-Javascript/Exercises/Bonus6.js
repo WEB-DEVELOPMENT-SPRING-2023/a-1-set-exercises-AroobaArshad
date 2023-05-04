@@ -1,3 +1,4 @@
+// Adding background audio
 var audio = document.createElement('audio');
 audio.src = 'https://www.dropbox.com/s/yeixsr4o7jasjgk/2023-05-04%2022-28-13.mp3?dl=1';
 audio.loop = true;
